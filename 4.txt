@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Student Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">StudentPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Interactive Academic Planner</h1>
+        <section class="card planner-box">
+            <p>Manage your assignments, study sessions, and deadlines below.</p>
+            <div class="task-input-group">
+                <input type="text" id="taskInput" placeholder="Enter a new academic task (e.g., Complete COS 106 Project)...">
+                <button id="addTaskBtn" class="btn">Add Task</button>
+            </div>
+            <ul id="taskList" class="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Your Full Name] - COS 106 Term Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

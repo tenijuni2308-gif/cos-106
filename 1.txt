@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Student Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">StudentPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="https://placeholder.com" alt="Student Photograph" class="https://drive.google.com/file/d/18c8-Pep9jRd5cDZwjR7k9JPV6potI-Qo/view?usp=sharing">
+            <div class="hero-text">
+                <h1>Welcome to My Academic Portfolio</h1>
+                <h2>Hello, I am [TAIWO WUNDERKIND ENIJUNI]</h2>
+                <p>I am a Computer Science student at MIVA Open University passionate about web technologies, software development, and continuous learning. Explore my academic journey, view my projects, and test out my interactive study planner.</p>
+                <a href="projects.html" class="btn">View My Projects</a>
+            </div>
+        </section>
+
+        <section class="media-section">
+            <h3>Audio Introduction</h3>
+            <p>Listen to a brief welcome message:</p>
+            <audio controls>
+                <source src="intro.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Your Full Name] - COS 106 Term Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

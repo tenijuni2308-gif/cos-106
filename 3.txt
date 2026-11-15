@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Student Academic Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">StudentPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="planner.html">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>My Academic & Personal Projects</h1>
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="https://placeholder.com" alt="Personal Blog Screenshot">
+                <div class="project-info">
+                    <h3>1. Tech Insights Blog</h3>
+                    <p>A responsive multi-page blog built with semantic HTML5 and CSS Grid to share tutorials on web development fundamentals.</p>
+                    <a href="https://github.com" target="_blank" class="btn">View Source Code</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://placeholder.com" alt="GPA Calculator Screenshot">
+                <div class="project-info">
+                    <h3>2. University GPA Calculator</h3>
+                    <p>An interactive JavaScript web application that allows university students to input course units and grades to compute their CGPA dynamically.</p>
+                    <a href="https://github.com" target="_blank" class="btn">View Source Code</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://placeholder.com" alt="Weather Dashboard Screenshot">
+                <div class="project-info">
+                    <h3>3. Campus Event Portal</h3>
+                    <p>A front-end prototype for displaying upcoming university seminars, hackathons, and student club meetings with mobile-first styling.</p>
+                    <a href="https://github.com" target="_blank" class="btn">View Source Code</a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Your Full Name] - COS 106 Term Project</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
